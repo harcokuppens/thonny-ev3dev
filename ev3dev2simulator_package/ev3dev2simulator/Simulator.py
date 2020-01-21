@@ -88,13 +88,11 @@ class Simulator(arcade.Window):
         super(Simulator, self).__init__(self.screen_width, self.screen_height, screen_title, update_rate=1 / 30,
                                         resizable=True)
 
+
+
         arcade.set_background_color((235, 235, 235))
 
-        if show_fullscreen == True:
-            self.toggleFullScreen()
 
-        if show_maximized == True:
-            self.maximize()
 
         self.robot_elements = None
         self.obstacle_elements = None
@@ -120,6 +118,17 @@ class Simulator(arcade.Window):
 
         self.text_x = self.screen_width - apply_scaling(220)
 
+
+        self.setup()
+
+        if show_fullscreen == True:
+            self.toggleFullScreen()
+
+        if show_maximized == True:
+            self.maximize()
+
+        # import time
+        # time.sleep(0.1)
 
 
 
@@ -357,7 +366,7 @@ def main():
     server_thread.start()
 
     sim = Simulator(robot_state, robot_pos,show_fullscreen,show_maximized,use_second_screen_to_show_simulator)
-    sim.setup()
+    #sim.setup()
     arcade.run()
 
 
