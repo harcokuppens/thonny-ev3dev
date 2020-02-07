@@ -1,3 +1,9 @@
+
+**The project is moved to :  https://github.com/ev3dev-python-tools/thonny-ev3dev  supporting Thonny version 3 **
+
+** This repository supports Thonny version 2 ** 
+
+
 The thonny-ev3dev package is a plug-in which adds EV3 support for Thonny.
 
 To correctly use the thonny-ev3dev plugin you must not use 'import ev3dev.ev3 as ev3' to import the ev3dev library, but instead you import it as:
