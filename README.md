@@ -1,7 +1,7 @@
 
-**The project is moved to** :  https://github.com/ev3dev-python-tools/thonny-ev3dev  supporting Thonny version 3 
+**The project is moved to** :  https://github.com/ev3dev-python-tools/thonny-ev3dev  **supporting Thonny version 3** 
 
-** This repository supports Thonny version 2 ** 
+**This repository supports Thonny version 2** 
 
 
 The thonny-ev3dev package is a plug-in which adds EV3 support for Thonny.
